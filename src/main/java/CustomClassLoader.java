@@ -77,7 +77,7 @@ public class CustomClassLoader extends ClassLoader {
         if(loadedClass == null) {
             throw new ClassNotFoundException(name);
         } else {
-            System.out.println("CustomClassLoader: Loaded " + name);
+            System.out.println("CustomClassLoader: Loaded class: " + name);
         }
 
         return loadedClass;
